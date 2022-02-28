@@ -10,7 +10,6 @@ semi_annual_raise = .07
 portion_down_payment = 0.25 * total_cost
 current_savings = 0
 r = 0.04
-
 months = 0
 
 while(months < 36):
@@ -25,5 +24,4 @@ while(months < 36):
     if (months % 6) == 0:
         annual_salary = annual_salary + (annual_salary * semi_annual_raise)
     
-
 print("Best savings rate: ", portion_saved)
