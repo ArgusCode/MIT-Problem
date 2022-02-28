@@ -13,9 +13,7 @@ r = 0.04
 months = 0
 
 while(months < 36):
-    
     monthly_salary = annual_salary / 12
-    
     current_savings = current_savings + (current_savings * r / 12) + (
             calculate_savings_rate(annual_salary) * monthly_salary)
     
