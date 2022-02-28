@@ -5,12 +5,11 @@ portion_saved = float(input('Enter the percent of your salary to save, as a deci
 monthly_savings = (annual_salary / 12) * portion_saved
 
 total_cost = float(input('Enter the cost of your dream home: '))
-portion_down_payment = 0.25 #25%
+portion_down_payment = 0.25
 down_payment = total_cost * portion_down_payment
 
 annual_return = 0.04
 current_savings = 0.0
-
 number_of_months = 0
 
 while current_savings < down_payment:
