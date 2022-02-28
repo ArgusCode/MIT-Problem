@@ -1,5 +1,9 @@
 #ps1b.py
 
+annual_return = 0.04
+current_savings = 0.0
+number_of_months = 0
+
 annual_salary = float(input('Enter your starting annual salary: '))
 portion_saved = float(input('Enter the percent of your salary to save, as a decimal: '))
 monthly_savings = (annual_salary / 12) * portion_saved
@@ -9,10 +13,6 @@ portion_down_payment = 0.25
 down_payment = total_cost * portion_down_payment
 
 semi_annual_raise = float(input('Enter the semiannual raise, as a decimal: '))
-
-annual_return = 0.04
-current_savings = 0.0
-number_of_months = 0
 
 while current_savings < down_payment:
     current_savings += monthly_savings + ((current_savings * annual_return) / 12)
