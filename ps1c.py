@@ -1,16 +1,16 @@
 # ps1c.py
 
-def calculate_savings_rate(annual_salary):
-
-annual_salary = float(input("Enter your starting annual salary: "))
-portion_saved = ????
-
 total_cost = 1000000.0
 semi_annual_raise = .07
 portion_down_payment = 0.25 * total_cost
 current_savings = 0
 r = 0.04
 months = 0
+
+def calculate_savings_rate(annual_salary):
+
+annual_salary = float(input("Enter your starting annual salary: "))
+portion_saved = ????
 
 while(months < 36):
     monthly_salary = annual_salary / 12
